@@ -1,0 +1,590 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Navigation to PLP using MMY select",
+        "description": "",
+        "id": "smokesuite;navigation-to-plp-using-mmy-select",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380423424,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "A browser session with the website",
+            "match": {
+              "location": "stepdefination.a_browser_session_with_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 23220540430,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user select the make from Make dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_make_from_Make_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1062024838,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "the selection should be in displayed in make dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_make_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1465850859,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user select the model from model dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_model_from_model_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1055224215,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "the selection should be in displayed in model dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_model_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1248277101,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user select the Year from Year dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_Year_from_Year_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1049802191,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "the selection should be in displayed in Select Year dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_Select_Year_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2626455576,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "clicks on Go button",
+            "match": {
+              "location": "stepdefination.clicks_on_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2068885644,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "PlP is displayed",
+            "match": {
+              "location": "stepdefination.plp_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 29,
+        "name": "Navigating to PDP from PLP",
+        "description": "",
+        "id": "smokesuite;navigating-to-pdp-from-plp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18950025,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "A browser session with the website",
+            "match": {
+              "location": "stepdefination.a_browser_session_with_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3292117957,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user select instock from stock filter",
+            "match": {
+              "location": "stepdefination.user_select_instock_from_stock_filter()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2210180640,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "Instock product is dispalyed",
+            "match": {
+              "location": "stepdefination.instock_product_is_dispalyed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3351981824,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user click on product",
+            "match": {
+              "location": "stepdefination.user_click_on_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 443357064,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "PDP is displayed",
+            "match": {
+              "location": "stepdefination.pdp_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 38,
+        "name": "Adding product from PDP",
+        "description": "",
+        "id": "smokesuite;adding-product-from-pdp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 214412544,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "A browser session with the website",
+            "match": {
+              "location": "stepdefination.a_browser_session_with_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12854926101,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "user enter the quantity",
+            "match": {
+              "location": "stepdefination.user_enter_the_quantity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3419586373,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "clicks on add to cart button",
+            "match": {
+              "location": "stepdefination.clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1061366563,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "product should be added to cart and mini cart should be displayed",
+            "match": {
+              "location": "stepdefination.product_should_be_added_to_cart_and_mini_cart_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 45,
+        "name": "Validation of Add to cart from Generic PDP",
+        "description": "",
+        "id": "smokesuite;validation-of-add-to-cart-from-generic-pdp",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6991435,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "A browser session with the website",
+            "match": {
+              "location": "stepdefination.a_browser_session_with_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9395191464,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "user clicks on fuel management product menu",
+            "match": {
+              "location": "stepdefination.user_clicks_on_fuel_management_product_menu()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7093138,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "CLP should be displayed",
+            "match": {
+              "location": "stepdefination.clp_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1061057253,
+              "error_message": "java.lang.IllegalArgumentException: bound must be greater than origin\r\n\tat java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378)\r\n\tat Testcase.PDP.clp(PDP.java:201)\r\n\tat stepdefination.stepdefination.user_clicks_on_power_commander_shop_now(stepdefination.java:157)\r\n\tat ✽.When user clicks on power commander shop now(src/test/java/feature/smoke.feature:50)\r\n",
+              "status": "failed"
+            },
+            "line": 50,
+            "name": "user clicks on power commander shop now",
+            "match": {
+              "location": "stepdefination.user_clicks_on_power_commander_shop_now()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 51,
+            "name": "the Generic PDP should be displayed",
+            "match": {
+              "location": "stepdefination.the_Generic_PDP_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 52,
+            "name": "Click the Select a vehicle button",
+            "match": {
+              "location": "stepdefination.click_the_Select_a_vehicle_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 53,
+            "name": "the pop-up should be displayed",
+            "match": {
+              "location": "stepdefination.the_pop_up_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 54,
+            "name": "user select the make from Make dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_make_from_Make_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 55,
+            "name": "the selection should be in displayed in make dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_make_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 56,
+            "name": "user select the model from model dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_model_from_model_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 57,
+            "name": "the selection should be in displayed in model dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_model_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 58,
+            "name": "user select the Year from Year dropdown",
+            "match": {
+              "location": "stepdefination.user_select_the_Year_from_Year_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 59,
+            "name": "the selection should be in displayed in Select Year dropdown",
+            "match": {
+              "location": "stepdefination.the_selection_should_be_in_displayed_in_Select_Year_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 60,
+            "name": "clicks on the Go button",
+            "match": {
+              "location": "stepdefination.clicks_on_the_Go_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 61,
+            "name": "user enter the quantity",
+            "match": {
+              "location": "stepdefination.user_enter_the_quantity()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 62,
+            "name": "clicks on add to cart button",
+            "match": {
+              "location": "stepdefination.clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 63,
+            "name": "product should be added to cart and mini cart should be displayed",
+            "match": {
+              "location": "stepdefination.product_should_be_added_to_cart_and_mini_cart_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 66,
+        "name": "Validation of Cart page",
+        "description": "",
+        "id": "smokesuite;validation-of-cart-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6930319,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "A browser session with the website",
+            "match": {
+              "location": "stepdefination.a_browser_session_with_the_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 29116371041,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user click on minicart",
+            "match": {
+              "location": "stepdefination.user_click_on_minicart()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1067347958,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "minicart is displayed",
+            "match": {
+              "location": "stepdefination.minicart_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5040953963,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user clicks the View Cart button",
+            "match": {
+              "location": "stepdefination.user_clicks_the_View_Cart_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 367513576,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "Cart Page should be displayed",
+            "match": {
+              "location": "stepdefination.cart_Page_should_be_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2085329465,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user update the qty",
+            "match": {
+              "location": "stepdefination.user_update_the_qty()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31429956426,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "clicks on update shopping cart",
+            "match": {
+              "location": "stepdefination.clicks_on_update_shopping_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079971355,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "Qty is updated",
+            "match": {
+              "location": "stepdefination.qty_is_updated()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6173212719,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "user clicks on proceed to checkout button",
+            "match": {
+              "location": "stepdefination.user_clicks_on_proceed_to_checkout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 354478232,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "checkout page is displayed",
+            "match": {
+              "location": "stepdefination.checkout_page_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "SmokeSuite",
+    "description": "",
+    "id": "smokesuite",
+    "keyword": "Feature",
+    "uri": "src/test/java/feature/smoke.feature"
+  }
+]

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="149742" started-at="2019-11-29T06:19:48Z" finished-at="2019-11-29T06:22:18Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumberoption.TestRunner@340f438e]" name="feature" class="Cucumberoption.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="149742" started-at="2019-11-29T06:19:48Z" finished-at="2019-11-29T06:22:18Z">
+      <class name="Cucumberoption.TestRunner">
+        <test-method status="PASS" signature="Browserselection()[pri:0, instance:Cucumberoption.TestRunner@340f438e]" name="Browserselection" is-config="true" duration-ms="4132" started-at="2019-11-29T11:49:44Z" finished-at="2019-11-29T11:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserselection -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Cucumberoption.TestRunner@340f438e]" name="setUpClass" is-config="true" duration-ms="199" started-at="2019-11-29T11:49:48Z" finished-at="2019-11-29T11:49:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumberoption.TestRunner@340f438e]" name="feature" duration-ms="149336" started-at="2019-11-29T11:49:49Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-29T11:52:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SmokeSuite]]>
+              </value>
+            </param>
+          </params>
+          <exception class="cucumber.runtime.CucumberException">
+            <message>
+              <![CDATA[java.lang.IllegalArgumentException: bound must be greater than origin]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: bound must be greater than origin
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at Cucumberoption.TestRunner.feature(TestRunner.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:295)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:84)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:90)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:203)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:155)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:103)
+Caused by: java.lang.IllegalArgumentException: bound must be greater than origin
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378)
+	at Testcase.PDP.clp(PDP.java:201)
+	at stepdefination.stepdefination.user_clicks_on_power_commander_shop_now(stepdefination.java:157)
+	at ✽.When user clicks on power commander shop now(src/test/java/feature/smoke.feature:50)
+]]>
+            </full-stacktrace>
+          </exception> <!-- cucumber.runtime.CucumberException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Cucumberoption.TestRunner@340f438e]" name="tearDownClass" is-config="true" duration-ms="77" started-at="2019-11-29T11:52:18Z" finished-at="2019-11-29T11:52:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumberoption.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

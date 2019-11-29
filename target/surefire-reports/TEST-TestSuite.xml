@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="149.345" tests="1" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\bin"/>
+    <property name="java.vm.version" value="25.181-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\eclipse\Workspace\Smokesuite"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\eclipse\Workspace\Smokesuite"/>
+    <property name="java.runtime.version" value="1.8.0_181-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Swathish\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="classworlds.conf" value="E:\eclipse\Workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf3503914623018658458.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_181/bin/server;C:/Program Files/Java/jre1.8.0_181/bin;C:/Program Files/Java/jre1.8.0_181/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\dotnet\;C:\apache-ant-1.9.14\bin;C:\Program Files (x86)\Google\Chrome\Application;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\ProgramData\Lenovo\ReadyApps;C:\Program Files\dotnet\;C:\Users\Swathish\AppData\Local\Programs\Git\cmd;C:\swathish\eclipse-jee-neon-3-win32-x86_64\eclipse;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.3"/>
+    <property name="user.home" value="C:\Users\Swathish"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Swathish"/>
+    <property name="java.class.path" value="/C:/swathish/eclipse-jee-neon-3-win32-x86_64/eclipse/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_181\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_181"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_181\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_181\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_181\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="E:\eclipse\Workspace\Smokesuite\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="feature" classname="Cucumberoption.TestRunner" time="149.345">
+    <failure message="java.lang.IllegalArgumentException: bound must be greater than origin" type="cucumber.runtime.CucumberException">cucumber.runtime.CucumberException: java.lang.IllegalArgumentException: bound must be greater than origin
+	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
+	at Cucumberoption.TestRunner.feature(TestRunner.java:47)
+Caused by: java.lang.IllegalArgumentException: bound must be greater than origin
+	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378)
+	at Testcase.PDP.clp(PDP.java:201)
+	at stepdefination.stepdefination.user_clicks_on_power_commander_shop_now(stepdefination.java:157)
+	at ✽.When user clicks on power commander shop now(src/test/java/feature/smoke.feature:50)
+</failure>
+    <system-out><![CDATA[Feature: SmokeSuite
+
+  Scenario: Navigation to PLP using MMY select                        # src/test/java/feature/smoke.feature:17
+    Given A browser session with the website                          # stepdefination.a_browser_session_with_the_website()
+    When user select the make from Make dropdown                      # stepdefination.user_select_the_make_from_Make_dropdown()
+    Then the selection should be in displayed in make dropdown        # stepdefination.the_selection_should_be_in_displayed_in_make_dropdown()
+    When user select the model from model dropdown                    # stepdefination.user_select_the_model_from_model_dropdown()
+    Then the selection should be in displayed in model dropdown       # stepdefination.the_selection_should_be_in_displayed_in_model_dropdown()
+    When user select the Year from Year dropdown                      # stepdefination.user_select_the_Year_from_Year_dropdown()
+    Then the selection should be in displayed in Select Year dropdown # stepdefination.the_selection_should_be_in_displayed_in_Select_Year_dropdown()
+    And clicks on Go button                                           # stepdefination.clicks_on_Go_button()
+    Then PlP is displayed                                             # stepdefination.plp_is_displayed()
+Yes Present
+2
+2
+
+  Scenario: Navigating to PDP from PLP         # src/test/java/feature/smoke.feature:29
+    Given A browser session with the website   # stepdefination.a_browser_session_with_the_website()
+    When user select instock from stock filter # stepdefination.user_select_instock_from_stock_filter()
+    Then Instock product is dispalyed          # stepdefination.instock_product_is_dispalyed()
+    When user click on product                 # stepdefination.user_click_on_product()
+    Then PDP is displayed                      # stepdefination.pdp_is_displayed()
+Qty is  available
+
+  Scenario: Adding product from PDP                                        # src/test/java/feature/smoke.feature:38
+    Given A browser session with the website                               # stepdefination.a_browser_session_with_the_website()
+    When user enter the quantity                                           # stepdefination.user_enter_the_quantity()
+    And clicks on add to cart button                                       # stepdefination.clicks_on_add_to_cart_button()
+    Then product should be added to cart and mini cart should be displayed # stepdefination.product_should_be_added_to_cart_and_mini_cart_should_be_displayed()
+
+  Scenario: Validation of Add to cart from Generic PDP                     # src/test/java/feature/smoke.feature:45
+    Given A browser session with the website                               # stepdefination.a_browser_session_with_the_website()
+    When user clicks on fuel management product menu                       # stepdefination.user_clicks_on_fuel_management_product_menu()
+    Then CLP should be displayed                                           # stepdefination.clp_should_be_displayed()
+    When user clicks on power commander shop now                           # stepdefination.user_clicks_on_power_commander_shop_now()
+      java.lang.IllegalArgumentException: bound must be greater than origin
+      	at java.util.concurrent.ThreadLocalRandom.nextInt(ThreadLocalRandom.java:378)
+      	at Testcase.PDP.clp(PDP.java:201)
+      	at stepdefination.stepdefination.user_clicks_on_power_commander_shop_now(stepdefination.java:157)
+      	at ?.When user clicks on power commander shop now(src/test/java/feature/smoke.feature:50)
+
+    Then the Generic PDP should be displayed                               # stepdefination.the_Generic_PDP_should_be_displayed()
+    When Click the Select a vehicle button                                 # stepdefination.click_the_Select_a_vehicle_button()
+    Then the pop-up should be displayed                                    # stepdefination.the_pop_up_should_be_displayed()
+    When user select the make from Make dropdown                           # stepdefination.user_select_the_make_from_Make_dropdown()
+    Then the selection should be in displayed in make dropdown             # stepdefination.the_selection_should_be_in_displayed_in_make_dropdown()
+    When user select the model from model dropdown                         # stepdefination.user_select_the_model_from_model_dropdown()
+    Then the selection should be in displayed in model dropdown            # stepdefination.the_selection_should_be_in_displayed_in_model_dropdown()
+    When user select the Year from Year dropdown                           # stepdefination.user_select_the_Year_from_Year_dropdown()
+    Then the selection should be in displayed in Select Year dropdown      # stepdefination.the_selection_should_be_in_displayed_in_Select_Year_dropdown()
+    And clicks on the Go button                                            # stepdefination.clicks_on_the_Go_button()
+    When user enter the quantity                                           # stepdefination.user_enter_the_quantity()
+    And clicks on add to cart button                                       # stepdefination.clicks_on_add_to_cart_button()
+    Then product should be added to cart and mini cart should be displayed # stepdefination.product_should_be_added_to_cart_and_mini_cart_should_be_displayed()
+true
+
+  Scenario: Validation of Cart page                # src/test/java/feature/smoke.feature:66
+    Given A browser session with the website       # stepdefination.a_browser_session_with_the_website()
+    When user click on minicart                    # stepdefination.user_click_on_minicart()
+    Then minicart is displayed                     # stepdefination.minicart_is_displayed()
+    When user clicks the View Cart button          # stepdefination.user_clicks_the_View_Cart_button()
+    Then Cart Page should be displayed             # stepdefination.cart_Page_should_be_displayed()
+    When user update the qty                       # stepdefination.user_update_the_qty()
+    And clicks on update shopping cart             # stepdefination.clicks_on_update_shopping_cart()
+    Then Qty is updated                            # stepdefination.qty_is_updated()
+    When user clicks on proceed to checkout button # stepdefination.user_clicks_on_proceed_to_checkout_button()
+    Then checkout page is displayed                # stepdefination.checkout_page_is_displayed()
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 2.43.600210 (68dcf5eebde37173d4027fa8635e332711d2874a) on port 12671
+Only local connections are allowed.
+Nov 29, 2019 11:49:47 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+]]></system-err>
+  </testcase>
+</testsuite>

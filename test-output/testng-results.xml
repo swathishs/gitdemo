@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="189149" started-at="2019-11-29T06:08:24Z" finished-at="2019-11-29T06:11:33Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumberoption.TestRunner@6093dd95]" name="feature" class="Cucumberoption.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="189149" started-at="2019-11-29T06:08:24Z" finished-at="2019-11-29T06:11:33Z">
+      <class name="Cucumberoption.TestRunner">
+        <test-method status="PASS" signature="Browserselection()[pri:0, instance:Cucumberoption.TestRunner@6093dd95]" name="Browserselection" is-config="true" duration-ms="4337" started-at="2019-11-29T11:38:20Z" finished-at="2019-11-29T11:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Browserselection -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Cucumberoption.TestRunner@6093dd95]" name="setUpClass" is-config="true" duration-ms="251" started-at="2019-11-29T11:38:24Z" finished-at="2019-11-29T11:38:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumberoption.TestRunner@6093dd95]" name="feature" duration-ms="188688" started-at="2019-11-29T11:38:25Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-11-29T11:41:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[SmokeSuite]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Cucumberoption.TestRunner@6093dd95]" name="tearDownClass" is-config="true" duration-ms="85" started-at="2019-11-29T11:41:33Z" finished-at="2019-11-29T11:41:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumberoption.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
