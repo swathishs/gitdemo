@@ -35,7 +35,8 @@ public class Dataprovider {
 		try{
 
 			Prop = new Properties();
-			file = new FileInputStream("E:\\eclipse\\Workspace\\Smokesuite\\src\\main\\java\\Data\\Data.properties");
+			//file = new FileInputStream("E:\\eclipse\\Workspace\\Smokesuite\\src\\main\\java\\Data\\Data.properties");
+			file = new FileInputStream("C:\\Users\\Padmanaban\\.jenkins\workspace\\Maven-dyno\\src\\main\\java\\Data\\Data.properties");
 			Prop.load(file);
 
 		}
@@ -58,7 +59,8 @@ public class Dataprovider {
 			driver.manage().window().maximize();
 		}
 		else if(Prop("Browser").equals("Chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\swathish\\Selenium\\Chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\swathish\\Selenium\\Chromedriver.exe");
+	System.setProperty("webdriver.chrome.driver", "E:\\Downloads\\chromedriver_win32\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
