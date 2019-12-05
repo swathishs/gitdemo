@@ -58,7 +58,7 @@ public class Dataprovider {
 			driver.manage().window().maximize();
 		}
 		else if(Prop("Browser").equals("Chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\swathish\\Selenium\\Chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\swathish\\Selenium\\Chromedriver");
 				driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
