@@ -32,10 +32,13 @@ public class Dataprovider {
 
 	public static String Prop(String value) {
 
+		
 		try{
 
 			Prop = new Properties();
-			file = new FileInputStream("E:\\eclipse\\Workspace\\Smokesuite\\src\\main\\java\\Data\\Data.properties");
+			File location=new File("src/main/java/Data");
+			File name = new File(location, "Data.properties");
+			FileInputStream fis=new FileInputStream(name.getAbsolutePath());
 			Prop.load(file);
 
 		}
@@ -53,21 +56,26 @@ public class Dataprovider {
 
 
 		if(Prop("Browser").equals("firefox")){
-			System.setProperty("webdriver.gecko.driver", "C:\\swathish\\Selenium\\geckodriver.exe");
+			File location=new File("src");
+			File name = new File(location, "geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", name.getAbsolutePath());
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 		}
 		else if(Prop("Browser").equals("Chrome")){
-			System.setProperty("webdriver.chrome.driver", "C:\\swathish\\Selenium\\Chromedriver");
-				driver = new ChromeDriver();
+			File location=new File("src");
+			File name = new File(location, "chromedriver.exe");
+			System.setProperty("webdriver.gecko.driver", name.getAbsolutePath());
+			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}
 		else if(Prop("Browser").equals("Internet")){
-			System.setProperty("webdriver.ie.driver", "C:\\swathish\\Selenium\\IEDriverServer.exe");
+			File location=new File("src");
+			File name = new File(location, "IEDriverServer.exe");
+			System.setProperty("webdriver.gecko.driver", name.getAbsolutePath());
 			driver = new InternetExplorerDriver();
 			driver.manage().window().maximize();
 		}
-
 		else {
 
 			System.out.println("Intalize web browser broken");
